@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1369</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="background">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>1391</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(180, 180, 180, 255))</string>
+   </property>
+   <property name="text">
+    <string>bcakgtound_gi</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="camara">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>80</y>
+     <width>731</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(255, 0, 0);
+	
+   
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>prison-2020.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dp_pic_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>241</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(255, 0, 0);
+	
+   
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>images.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>630</y>
+     <width>601</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(170, 255, 127);
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 255);
+    font: bold 14px;
+    min-width: 10em;
+    padding: 2px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="abnomal">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>650</y>
+     <width>82</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>abnomal</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="fight">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>650</y>
+     <width>82</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>fight</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="wepon">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>650</y>
+     <width>82</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>wepon</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="detec_list">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>501</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>-4</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>detections</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>detect persons</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>date time</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>location</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>210</y>
+     <width>521</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:  rgb(255, 0, 0);;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 255);
+    font: bold 14px;
+    min-width: 10em;
+    padding: 2px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>background</zorder>
+  <zorder>camara</zorder>
+  <zorder>dp_pic_2</zorder>
+  <zorder>label</zorder>
+  <zorder>abnomal</zorder>
+  <zorder>fight</zorder>
+  <zorder>wepon</zorder>
+  <zorder>label_2</zorder>
+  <zorder>detec_list</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
